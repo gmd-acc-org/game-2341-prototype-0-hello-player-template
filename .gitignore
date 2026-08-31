@@ -1,0 +1,44 @@
+# GAME-2341 Prototype 0 — Unity source control
+#
+# Track Assets/, Packages/, ProjectSettings/, and every .meta file. Unity can
+# rebuild the folders below locally; they do not belong in Classroom50.
+
+# Unity-generated and local state
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emory[Cc]aptures/
+[Rr]ecordings/
+
+# Instructor-only local release notes
+INSTRUCTOR-PUBLISHING.md
+
+# IDE and operating-system state
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Unity exports, captures, and packaged course material are not this submission.
+*.unitypackage
+*.apk
+*.aab
+*.mp4
+*.mov
+*.webm
+*.gif
+
+# Never ignore .meta files. Unity needs them to preserve references between
+# scenes and scripts.
